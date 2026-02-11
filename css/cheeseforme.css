@@ -738,14 +738,16 @@ button::after {
     }
 
     .rainbow-text { 
-        font-size: 0.5em; 
+        font-size: 2em; 
         margin-top: 15px; 
         margin-bottom: 50px; 
     }
 
     .container {
-        max-width: 95%;  /* almost full width */
-        padding: 15px;   /* smaller padding */
+    max-width: 95%;
+    padding: 15px;
+    margin: 0 auto;       /* center horizontally */
+    text-align: center;   /* keep content centered */
     }
 
     .message {
@@ -765,9 +767,11 @@ button::after {
     }
 
     .main-gif {
-        width: 100px;
-        height: 100px;
-    }
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;       /* center horizontally */
+    display: block;       /* ensure it’s block-level */
+}
 
     .modal {
     padding: 10px;
