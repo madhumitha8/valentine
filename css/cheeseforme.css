@@ -736,7 +736,7 @@ button::after {
     h1 .heart {
         display: block;            /* heart below text */
         margin: 10px auto 0 auto;  /* top 10px, centered */
-        font-size: 0.5em;            /* adjust size of heart */
+        font-size: 1.5em;            /* adjust size of heart */
     }
 
     .rainbow-text {
