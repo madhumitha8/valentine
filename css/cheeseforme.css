@@ -750,9 +750,15 @@ button::after {
     }
 
     .heart1 {
+        font-size: 0.5rem; 
         display: block;
-        margin: 0px auto 0 auto; /* center below text */
-        font-size: 0.5rem;          /* fixed size */
+        margin: 0 auto;
+        animation: heartbeatMobile 1.5s infinite;
+    }
+
+    @keyframes heartbeatMobile {
+        0%, 50%, 100% { transform: scale(1); }
+        25%, 75% { transform: scale(1.1); } /* smaller bounce */
     }
 
     .rainbow-text {
