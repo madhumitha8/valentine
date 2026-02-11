@@ -727,8 +727,8 @@ button::after {
 /* Mobile */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 1.8em;          /* readable size on mobile */
-        margin: 20px 10px;         /* 20px top/bottom, 10px left/right */
+        font-size: 0.5em;          /* readable size on mobile */
+        margin: 10px auto 0 auto;         /* 20px top/bottom, 10px left/right */
         text-align: center;        /* center the heading */
         white-space: normal;       /* allow wrapping */
     }
@@ -736,7 +736,7 @@ button::after {
     h1 .heart {
         display: block;            /* heart below text */
         margin: 10px auto 0 auto;  /* top 10px, centered */
-        font-size: 2em;            /* adjust size of heart */
+        font-size: 0.5em;            /* adjust size of heart */
     }
 
     .rainbow-text {
@@ -752,7 +752,7 @@ button::after {
     .container {
     max-width: 100%;
     padding: 0px;
-    margin: 0 auto;       /* center horizontally */
+    margin: 10px auto;       /* center horizontally */
     text-align: center;   /* keep content centered */
     }
 
