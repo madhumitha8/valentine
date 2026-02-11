@@ -750,7 +750,7 @@ button::after {
     }
 
     .heart1 {
-        font-size: 0.5rem; 
+        font-size: 1rem; 
         display: block;
         margin: 0 auto;
         animation: heartbeatMobile 1.5s infinite;
