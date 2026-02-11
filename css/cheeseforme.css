@@ -30,12 +30,6 @@ body {
     z-index: 1;
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        max-width: 95%;  /* almost full width */
-        padding: 10px;   /* smaller padding */
-    }
-}
 
 h1 {
     font-family: 'Dancing Script', cursive;
@@ -93,25 +87,6 @@ h1 {
     height: 100%;
     background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
     animation: shine 3s infinite;
-}
-
-/* Mobile */
-@media screen and (max-width: 600px) {
-    .message {
-        padding: 15px;
-        margin: 15px 0;
-        font-size: 0.95em;
-    }
-
-    .alasan {
-        font-size: 0.9em;
-        margin: 10px 0;
-    }
-
-    .selamatValentine {
-        font-size: 1em;
-        margin-top: 10px;
-    }
 }
 
 @keyframes shine {
@@ -196,14 +171,6 @@ h1 {
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     transition: transform 0.3s;
-}
-
-/* Mobile */
-@media screen and (max-width: 600px) {
-    .main-gif {
-        width: 200px;
-        height: 200px;
-    }
 }
 
 .main-gif:hover {
@@ -411,10 +378,6 @@ border-radius: 4px;
 background-color: #555;
 }
 
-@media screen and (max-width: 768px) {
-.modal {
-padding: 15px;
-}
 
 .modal-content {
 max-height: calc(70vh - 80px);
@@ -426,11 +389,6 @@ padding: 10px 15px;
 }
 }
 
-/* Specific adjustments for very small screens */
-@media screen and (max-width: 645px) {
-.modal {
-padding: 10px;
-}
 
 .modal-content {
 max-height: calc(65vh - 80px);
@@ -490,8 +448,6 @@ height: 250px;
 font-size: 1.2em;
 }
 }
-
-
 
 .memory-box {
     background: rgba(255,255,255,0.95);
@@ -771,21 +727,50 @@ button::after {
 /* Mobile */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 2.2em; 
+        font-size: 1.5em; 
         margin: 15px 0; 
     }
 
     h1 .heart {
         display: block;       /* force heart below text */
-        margin-top: 10px;     /* spacing */
-        font-size: 2em;       /* adjust size */
+        margin-top: 50px;     /* spacing */
+        font-size: 1em;       /* adjust size */
     }
 
     .rainbow-text { 
-        font-size: 1.8em; 
+        font-size: 0.5em; 
         margin-top: 15px; 
-        margin-bottom: 20px; 
+        margin-bottom: 50px; 
     }
-}
 
+    .container {
+        max-width: 95%;  /* almost full width */
+        padding: 10px;   /* smaller padding */
+    }
+
+    .message {
+        padding: 15px;
+        margin: 15px 0;
+        font-size: 0.95em;
+    }
+
+    .alasan {
+        font-size: 0.9em;
+        margin: 10px 0;
+    }
+
+    .selamatValentine {
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .main-gif {
+        width: 200px;
+        height: 200px;
+    }
+
+    .modal {
+    padding: 10px;
+
+}
 
