@@ -41,7 +41,7 @@ h1 {
 
 @keyframes colorChange {
     0% { color: #fff; }
-    50% { color: #ffd700; }
+    50% { color: #fff; }
     100% { color: #fff; }
 }
 
@@ -711,3 +711,26 @@ button::after {
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
+
+@keyframes rainbow {
+    0%   { color: #ffffff; }  /* start white */
+    16%  { color: #ff69b4; }  /* pink */
+    33%  { color: #ffd700; }  /* gold */
+    50%  { color: #32cd32; }  /* green */
+    66%  { color: #1e90ff; }  /* blue */
+    83%  { color: #9400d3; }  /* purple */
+    100% { color: #ffffff; }  /* end white */
+}
+
+.rainbow-text {
+    font-family: 'Dancing Script';
+    font-size: 3em;
+    text-align: center;       /* keep it centered horizontally */
+    margin-top: 20px;
+    margin-bottom: 40px;
+    animation: rainbow 1.5s infinite;
+    
+    white-space: nowrap;      /* prevents text from breaking into multiple lines */
+    display: inline-block;    /* needed so nowrap works properly while centering */
+}
+

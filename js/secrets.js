@@ -27,7 +27,7 @@ function checkLogin() {
     initValentinePage();
   } else {
     document.getElementById("error-message").textContent =
-      "Username pattu, password dumis ❤️";
+      "Username or password is incorrect :(";
   }
 }
 
