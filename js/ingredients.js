@@ -272,7 +272,7 @@ function forfooterwatermark(){
         _0xf24e22=document.createElement('div');
 
   _0xf24e22[_0x411277(0xcd)]=`
-        Made with <span class="heart">❤️</span> by 
+        Made with <span class="heart1">❤️</span> by 
         <a href="">Madhu</a>
   `;
 

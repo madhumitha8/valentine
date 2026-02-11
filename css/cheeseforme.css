@@ -53,6 +53,13 @@ h1 {
     animation: heartbeat 1.5s infinite;
 }
 
+.heart1 {
+    color: #ff0000;
+    font-size: 2.5em;
+    display: inline-block;
+    animation: heartbeat 1.5s infinite;
+}
+
 @keyframes heartbeat {
     0% { transform: scale(1); }
     25% { transform: scale(1.3); }
@@ -740,6 +747,12 @@ button::after {
         display: block;
         margin: 5px auto 0 auto; /* center below text */
         font-size: 4rem;          /* fixed size */
+    }
+
+    .heart1 {
+        display: block;
+        margin: 0px auto 0 auto; /* center below text */
+        font-size: 0.5rem;          /* fixed size */
     }
 
     .rainbow-text {
