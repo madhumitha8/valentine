@@ -729,7 +729,7 @@ button::after {
     h1 {
        font-size: 2.5em;
         margin-top: 15px;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
 
         white-space: normal;  /* allow wrapping */
         display: block;       /* so it takes full width and wraps */
@@ -738,7 +738,7 @@ button::after {
 
     .heart {
         display: block;
-        margin: 10px auto 0 auto; /* center below text */
+        margin: 5px auto 0 auto; /* center below text */
         font-size: 4rem;          /* fixed size */
     }
 
@@ -760,8 +760,8 @@ button::after {
     }
 
     .message {
-        padding: 15px;
-        margin: 15px 0;
+        padding: 10px;
+        margin: 10px 0;
         font-size: 0.95em;
     }
 
