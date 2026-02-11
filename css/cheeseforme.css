@@ -727,25 +727,29 @@ button::after {
 /* Mobile */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 3em; 
+        font-size: 2em; 
         margin: 10px 0; 
     }
 
     h1 .heart {
         display: block;       /* force heart below text */
         margin-top: 5px;     /* spacing */
-        font-size: 5em;       /* adjust size */
+        font-size: 2em;       /* adjust size */
     }
 
-    .rainbow-text { 
-        font-size: 4em; 
-        margin-top: 15px; 
-        margin-bottom: 50px; 
+    .rainbow-text {
+        font-size: 2em;
+        margin-top: 15px;
+        margin-bottom: 50px;
+
+        white-space: normal;  /* allow wrapping */
+        display: block;       /* so it takes full width and wraps */
+        text-align: center;   /* keep it centered */
     }
 
     .container {
-    max-width: 85%;
-    padding: 15px;
+    max-width: 100%;
+    padding: 0px;
     margin: 0 auto;       /* center horizontally */
     text-align: center;   /* keep content centered */
     }
