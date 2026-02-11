@@ -727,7 +727,7 @@ button::after {
 /* Mobile */
 @media screen and (max-width: 600px) {
     h1 {
-       font-size: 2em;
+       font-size: 2.5em;
         margin-top: 15px;
         margin-bottom: 50px;
 
@@ -739,7 +739,7 @@ button::after {
     .heart {
         display: block;
         margin: 10px auto 0 auto; /* center below text */
-        font-size: 3rem;          /* fixed size */
+        font-size: 4rem;          /* fixed size */
     }
 
     .rainbow-text {
