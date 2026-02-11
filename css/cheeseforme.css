@@ -727,24 +727,24 @@ button::after {
 /* Mobile */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 2em; 
-        margin: 15px 0; 
+        font-size: 3em; 
+        margin: 10px 0; 
     }
 
     h1 .heart {
         display: block;       /* force heart below text */
-        margin-top: 10px;     /* spacing */
-        font-size: 2em;       /* adjust size */
+        margin-top: 5px;     /* spacing */
+        font-size: 5em;       /* adjust size */
     }
 
     .rainbow-text { 
-        font-size: 2em; 
+        font-size: 4em; 
         margin-top: 15px; 
         margin-bottom: 50px; 
     }
 
     .container {
-    max-width: 95%;
+    max-width: 85%;
     padding: 15px;
     margin: 0 auto;       /* center horizontally */
     text-align: center;   /* keep content centered */
@@ -775,6 +775,23 @@ button::after {
 
     .modal {
     padding: 10px;
+}
+
+    .gif-container {
+        grid-template-columns: 1fr; /* single column */
+        gap: 15px;                  /* smaller spacing */
+        margin: 20px 0;
+        width: 100%;                /* fill container */
+        justify-items: center;      /* center gifs horizontally */
+    }
+
+    .gif-container img,
+    .main-gif {
+        width: 80%;        /* shrink for mobile */
+        max-width: 200px;  /* optional max size */
+        height: auto;      /* maintain aspect ratio */
+        margin: 0 auto;
+    }
 
 }
 
